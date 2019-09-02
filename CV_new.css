@@ -1,0 +1,141 @@
+
+section {height:380px;}
+
+body{ background-image:url(547815-huawei-logo.jpg);
+background-attachment:fixed; background-repeat: no-repeat;	background-size: cover;}
+span{txt-align:left;  float:right;}
+
+header {-webkit-text-stroke:1px white ; color:black; font-size:35pt;   background:-webkit-radial-gradient(center,white,red); }
+
+a{text-decoration:none;}
+a:hover{color:red;}
+
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin:50px auto;
+font-family:raleway
+}
+span {
+color:red
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+	
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid blue;
+padding:10px 40px 25px;
+margin-top:50px;
+}
+input[type=text],input[type=password] {
+width:85.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+
+input[type=submit] {
+width:100%;
+background-color:RED;
+color:#fff;
+border:2px solid #FFCB00;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px
+}
+label{
+	background-color:YELLOW;
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+body{ background-image:url(pag2.jpg);
+background-attachment:fixed; background-repeat: no-repeat;	background-size: cover;}
+
+
+       nav            { font-weight: bold;
+                           color: white;
+                           border: 2px solid RoyalBlue;
+                           text-align: center; border-radius:20px;
+                           width: 30em;
+                           background-color: RoyalBlue; }
+	 nav:hover{background:red;}					   
+						   
+         nav ul        { display: none;
+                           list-style: none;
+                           margin: 0;
+                           padding: 0; }
+         nav:hover ul    { display: block; }
+         nav ul li       { border-top: 2px solid RoyalBlue;border-radius:12px;
+                           background-color: white;
+                           width: 30m;
+                           color: black; }
+         nav ul li:hover { background-color: PowderBlue; }
+         a               { text-decoration: none; }
+
+		   .x
+         {
+            position: relative;
+            -webkit-animation: movingimage linear 10s 1s 2 alternate;
+         -moz-animation: movingimage linear 10s 1s 2 alternate;
+            animation: movingimage linear 10s 1s 2 alternate;
+         }
+         @-webkit-keyframes movingimage 
+         {
+            0%   {opacity: 1; left: 0px; top: 0px;}
+            25%  {opacity: 0; left: 150px;  top: 0px;}
+            50%  {opacity: 0; left: 900px; top: 0px;}
+            75%  {opacity: 1; left: 900px; top: 300px;}
+            100% {opacity: 1; left: 900px; top: 400px;}
+         }
+			body {color:white;}
+			.blueBox { background-color: blue; width: 100px; height: 100px;
+						position: absolute; top: 60px; left: 40px; z-index: 1;}
+			.blackBox { background-color: black; width: 100px;height: 100px;
+						position: absolute; top: 80px; left: 90px; z-index: 2;}
+			.RedBox { background-color: #ff0000; width: 100px;height: 100px;
+						position: absolute; top: 130px; left: 140px; z-index: 3;}
+			.background_image{ position: absolute; top: 30px; left: 390px; z-index: 4; border:7px solid blue; }
+			.middle_image{ position: absolute; top: 80px; left: 340px; z-index: 5; border:7px solid blue;}
+			.Bottom_image{ position: absolute; top: 130px; left: 290px; z-index: 6; border:7px solid blue;}
+			li:hover.y{background-color:yellow;}
+			li:hover.m{background-color:red;}
+			li:hover.n{background-color:blue;}
+			

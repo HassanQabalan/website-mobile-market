@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>  <meta charset ="utf-8">
+<meta name = "keywords" content = "C.V ,Hasan Ali Qablan, web page.">
+	  <meta name = "description" content = "This website contains 
+	   my profile c.vHasan Ali Qablan ">
+ <title> hasan</title>
+ <style type="text/css">
+ body{ background-image:url( script.jpg);
+background-attachment:fixed; background-repeat: no-repeat;	background-size: cover;}
+ 
+ 
+
+ </style>
+ </style>
+ </style>
+<script type="text/javaScript">
+	  var name;
+	 name=window.prompt("Enter Your Name")
+	 
+	 document.writeln("<h1> Welcome To My Page "+name+" </h1>")
+	 
+	var choice;
+	var startTag;
+	var endTag;
+	var valid=true;
+	var listType;
+	choice = window.prompt("Select a list style:\n"+"1(numbered),2(lettered),3(roman numbered)","1");
+	
+	switch (choice){
+	
+	case "1": startTag="<ol>";
+	          endTag="</ol>";
+			  listType="<h1> Chipped Chapters </h1>";
+	break;
+	
+	case "2": startTag="<ol style='list-style-type:upper-alpha;color:green;'>";
+	          endTag="</ol>";
+			  listType="<h1> Chipped Chapters </h1>";
+	break;
+	
+	case "3": startTag="<ol style='list-style-type:upper-roman'>";
+	          endTag="</ol>";
+			  listType="<h1> Chipped Chapters </h1>";
+	break;
+	
+	default: valid=false;
+	break;
+	}
+    if(valid==true){
+	document.writeln(listType+startTag);
+	
+	for (var i=1;i<=5;++i)
+	document.writeln("<li>Season "+i+"</li>");
+	
+	document.writeln(endTag);}
+	
+	else
+	document.writeln("Invalid choice: "+choice);
+	  
+	   var n1 = new Array(); // allocate five-element array
+	   var n2 = new Array(); // allocate empty array    
+	 var  mark=1;
+	 var name;
+	var grade;
+	var gradeValue;
+	var i=0;
+	var sum=0;
+	       
+	while(mark>0){
+		
+		 name=window.prompt("this page says :\n enter the student name");
+		grade=window.prompt("this page says :\n enter the student mark");
+		gradeValue= parseInt(grade);
+		if(gradeValue>0){
+		n1[i]=name;
+	  n2[i]=gradeValue;
+	  sum=sum+gradeValue;
+	  }
+	  mark=gradeValue;
+	  i=i+1;
+		
+	}
+	
+	
+	// output the heading followed by a two-column table 
+	// containing indices and elements of "theArray"  
+   document.writeln( "<hr><table> <caption><h2> Cumulative Average </h2></caption>"  +
+	      "<thead><th>Subject Name</th><th> Mark </th></thead><tbody>");
+	
+	   // output the index and value of each array element
+	   var length = n1.length; // get array's length once before loop
+	   for ( var i = 0; i < length; ++i )   
+	   
+	   { 
+          if(n2[i]>90)	{  
+	   document.write("<tr style='background-color:yellow'><td>" + n1[ i ] + "</td><td>" + n2[ i ] + 
+	         "</td></tr>");
+			 }
+			   if(n2[i]>=60 && n2[i]<=90 )	{  
+	   document.write("<tr style='background-color:skyblue'><td>" + n1[ i ] + "</td><td>" + n2[ i ] + 
+	         "</td></tr>");
+			 }
+			  if(n2[i]>=50 && n2[i]<60 )	{  
+	   document.write("<tr style='background-color:orange'><td>" + n1[ i ] + "</td><td>" + n2[ i ] + 
+	         "</td></tr>");
+			 }
+			 if(n2[i]<50 )	{  
+	   document.write("<tr style='background-color:red'><td>" + n1[ i ] + "</td><td>" + n2[ i ] + 
+	         "</td></tr>");
+			 }
+	   } 
+	  document.writeln( "</tbody><tfoot><th>The Avarage</th><th>"+sum/length+"</th></thead><tbody></table>");
+	  
+	  
+	var amount;
+	var pr=100000;
+	var rate=0.05;
+
+	document.writeln("<hr><table><caption>Calculat</caption>");
+	document.writeln("<thead><tr><th>year</th>");
+	document.writeln("<th>My Fortune</th></tr></thead><tbody>");
+	
+	for (var year=1;year<=10;++year){
+	
+	amount=pr*Math.floor(1+Math.random()*6);
+	
+	if (year%2!==0)
+	document.writeln("<tr class='x'><td>"+year+
+	"</td><td>"+amount.toFixed(2)+"</td></tr>");
+
+    else
+	
+	document.writeln("<tr><td>"+year+"</td><td>"+amount.toFixed(2)+"</td></tr>");}
+	
+	
+	document.writeln("</tbody></table>");
+	
+	
+	</script>
+	
+  </head>
+	<body>
+<h1 style="background-color:black;">	<a href="cv.html">Go to the Main Page</a> </h1>
+    
+   </body>
+   </html>
+
+

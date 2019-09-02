@@ -1,0 +1,11 @@
+
+section {height:380px;}
+
+body{ background-image:url(images.jpg);
+background-attachment:fixed; background-repeat: no-repeat;	background-size: cover;}
+span{txt-align:left;  float:right;}
+
+header {-webkit-text-stroke:1px white ; color:black; font-size:35pt;   background:-webkit-radial-gradient(center,white,red); }
+
+a{text-decoration:none;}
+a:hover{color:red;}

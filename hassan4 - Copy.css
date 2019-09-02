@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(mohamad1jpg.jpg) no-repeat;
+	background-size: cover; 
+}
+.box
+{
+	width: 450px;
+	
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box h5{
+	]font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.box li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+
+}
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+
+}
+.box li a:hover{
+	color: #b9b9b9;
+}
+.signup-form{
+	width: 500px;
+	padding: 20px;
+	text-align: center;
+	background: url("huawei-moh.png") no-repeat ;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	overflow: hidden;
+
+}
+.signup-form h1{
+	margin-top: 100px;
+	font-family: 'Permanent Marker', cursive;
+	color: #fff;
+	font-size: 40px;
+}
+.signup-form input{
+	display: block;
+	width: 100%;
+	padding: 0 16px;
+	height: 44px;
+	text-align: center;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	font-family: "montserrat",sans-serif;
+}
+.txtb{
+	margin: 20px 0;
+	background: rgba(255,255,255,.5);
+	border-radius: 6px;
+}
+.signup-btn{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	background: #487eb0;
+	color: #fff;
+	border-radius: 44px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+.signup-btn:hover{
+	transform: scale(0.96);
+}
+.signup-form a{
+	text-decoration: none;
+	color: #fff;
+    font-family: "montserrat",sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+.signup-form a:hover{
+	background: rgba(0,0,0,.3);
+	}
